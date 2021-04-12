@@ -329,13 +329,14 @@
 	padding-top: 90%;
 }
 .cbtext_df0055eb {
+	text-align: center;
 	font-weight: normal;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-bottom: 8px;
 	margin-top: 0px;
 	display: block;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1em;
 	color: rgb(85, 85, 85);
 	transform: rotate(0deg) scale(1) translate(0%, 0%);
@@ -859,6 +860,8 @@ background-color: transparent !imporant;
 	padding-top: 0px;
 }
 .div_KfY4dk {
+    margin-left:40px;
+	flex:auto;
 	min-height: 0px;
 	display: flex;
 	flex-direction: column;
@@ -1020,7 +1023,7 @@ background-color: transparent !imporant;
 	left: 0px;
 }
 .imageblock_LFzBP5 {
-	width: 100%;
+	width: 200%;
 	height: 100%;
 	transform: rotate(0deg) scale(1) translate(0%, 0%);
 	transition: all 0.5s ease;
@@ -1945,15 +1948,15 @@ background-color: transparent !imporant;
 	margin-right: 0px;
 }
 .cbhead_95f735ba {
-	font-family: Source-Han-Light;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 22px;
 	color: rgb(204, 204, 204);
 	margin-top: 80px;
 	margin-left: 5px;
 	margin-bottom: 25px;
 }
 .cbpara_a92ca311 {
+    font-size: 18px;
 	font-family: Source-Han-Light;
 	color: rgb(153, 153, 153);
 	margin-bottom: 13px;
