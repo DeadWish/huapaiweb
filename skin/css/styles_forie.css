@@ -2354,6 +2354,8 @@
     }
 
     .div_3d2T7v {
+        overflow:auto;
+        zoom:1;
         margin-top: 70px;
         margin-bottom: 70px;
     }
@@ -2406,7 +2408,6 @@
     .div_wfVjlo {
         margin-top: 70px;
         display: flex;
-        height: 450px;
         border-bottom: 1px dotted rgb(204, 204, 204);
     }
 
@@ -2456,7 +2457,6 @@
 
     .paragraph_6ykpQJ {
         font-family: Source-Han-Normal;
-        padding-top: 30px;
         padding-bottom: 0px;
         color: rgb(85, 85, 85);
         font-weight: bold;

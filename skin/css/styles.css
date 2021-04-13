@@ -2673,6 +2673,7 @@
     }
 
     .div_3d2T7v {
+        overflow:auto; zoom:1;
         margin-top: 70px;
         margin-bottom: 70px;
     }
@@ -2735,7 +2736,6 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        height: 450px;
         border-bottom: 1px dotted rgba(204, 204, 204, 0.8);
     }
 
@@ -2789,7 +2789,6 @@
 
     .paragraph_6ykpQJ {
         font-family: Source-Han-Normal;
-        padding-top: 30px;
         padding-bottom: 0px;
         color: rgb(85, 85, 85);
         font-weight: bold;
@@ -5838,9 +5837,6 @@
         margin-top: 0px;
     }
 
-    .div_wfVjlo {
-        height: 500px;
-    }
 
     .imageblock_wTb73v {
         width: 95%;
