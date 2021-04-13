@@ -856,7 +856,7 @@
   if (String.prototype.startsWith && String.prototype.endsWith) {
     var startsWithRejectsRegex = throwsError(function () {
       /* throws if spec-compliant */
-      '/11289/a/'.startsWith('/11289/a/');
+      '/11289'.startsWith('/11289');
     });
     var startsWithHandlesInfinity = valueOrFalseIfThrows(function () {
       return 'abc'.startsWith('a', Infinity) === false;
@@ -869,25 +869,25 @@
   }
   if (hasSymbols) {
     var startsWithSupportsSymbolMatch = valueOrFalseIfThrows(function () {
-      var re = '/11289/a/';
+      var re = '/11289';
       re[Symbol.match] = false;
-      return '/11289/a/'.startsWith(re);
+      return '/11289'.startsWith(re);
     });
     if (!startsWithSupportsSymbolMatch) {
       overrideNative(String.prototype, 'startsWith', StringPrototypeShims.startsWith);
     }
     var endsWithSupportsSymbolMatch = valueOrFalseIfThrows(function () {
-      var re = '/11289/a/';
+      var re = '/11289';
       re[Symbol.match] = false;
-      return '/11289/a/'.endsWith(re);
+      return '/11289'.endsWith(re);
     });
     if (!endsWithSupportsSymbolMatch) {
       overrideNative(String.prototype, 'endsWith', StringPrototypeShims.endsWith);
     }
     var includesSupportsSymbolMatch = valueOrFalseIfThrows(function () {
-      var re = '/11289/a/';
+      var re = '/11289';
       re[Symbol.match] = false;
-      return '/11289/a/'.includes(re);
+      return '/11289'.includes(re);
     });
     if (!includesSupportsSymbolMatch) {
       overrideNative(String.prototype, 'includes', StringPrototypeShims.includes);
@@ -1619,7 +1619,7 @@
     });
     keys = Object.keys;
   }
-  var objectKeysRejectsRegex = throwsError(function () { Object.keys('/11289/a/g'); });
+  var objectKeysRejectsRegex = throwsError(function () { Object.keys('/11289g'); });
   if (objectKeysRejectsRegex) {
     var regexRejectingObjectKeys = Object.keys;
     overrideNative(Object, 'keys', function keys(value) {
@@ -1767,7 +1767,7 @@
   }
 
   var regExpSupportsFlagsWithRegex = supportsDescriptors && valueOrFalseIfThrows(function () {
-    return String(new RegExp('/11289/a/g', 'i')) === '/11289/a/i';
+    return String(new RegExp('/11289g', 'i')) === '/11289i';
   });
   var regExpNeedsToSupportSymbolMatch = hasSymbols && supportsDescriptors && (function () {
     // Edge 0.12 supports flags fully, but does not support Symbol.match
@@ -1780,7 +1780,7 @@
     return RegExp.prototype.toString.call({ source: 'abc' }) === '/abc/';
   });
   var regexToStringSupportsGenericFlags = regexToStringIsGeneric && valueOrFalseIfThrows(function () {
-    return RegExp.prototype.toString.call({ source: 'a', flags: 'b' }) === '/11289/a/b';
+    return RegExp.prototype.toString.call({ source: 'a', flags: 'b' }) === '/11289b';
   });
   if (!regexToStringIsGeneric || !regexToStringSupportsGenericFlags) {
     var origRegExpToString = RegExp.prototype.toString;

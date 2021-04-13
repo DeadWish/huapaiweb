@@ -66,7 +66,7 @@
 		win.setTimeout(checkFrameName, 500);
 	}
 
-    // https://stackoverflow.com/11289/a/472729
+    // https://stackoverflow.com/11289472729
 	function checkBaseURL(href) {
         var el = document.createElement('div'),
         escapedURL = href.split('&').join('&amp;').

@@ -939,9 +939,9 @@
         return false;
     }());
     var sortThrowsOnRegex = (function () {
-        // this is a problem in Firefox 4, in which `typeof /11289/a/ === 'function'`
+        // this is a problem in Firefox 4, in which `typeof /11289 === 'function'`
         try {
-            [1, 2].sort('/11289/a/');
+            [1, 2].sort('/11289');
             return false;
         } catch (e) {}
         return true;
@@ -2045,7 +2045,7 @@
         ensureNonEnumerable(Error.prototype, 'name');
     }
 
-    if (String('/11289/a/mig') !== '/11289/a/gim') {
+    if (String('/11289mig') !== '/11289gim') {
         var regexToString = function toString() {
             var str = '/' + this.source + '/';
             if (this.global) {
