@@ -521,7 +521,6 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         z-index: auto;
-        background-image: url('../images/3a176cc29d87a0d4f97832fa9becb47b_origin.jpg');
         background-color: rgb(74, 134, 232);
     }
 
@@ -665,7 +664,6 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         z-index: auto;
-        background-image: url('../images/8a3857d92be8c01a316f366dceb53999_origin.jpg');
         background-color: rgb(74, 134, 232);
     }
 
@@ -796,7 +794,6 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         z-index: auto;
-        background-image: url('../images/3769bffeaaeec1f69573f49a330f9c56_origin.jpg');
         background-color: rgb(74, 134, 232);
     }
 
@@ -1792,7 +1789,6 @@
         width: 50%;
         position: static;
         overflow: hidden;
-        background-image: url("../images/0452e29004cda2cb8f6e5f51b98fefe3_origin.jpg");
         background-attachment: scroll;
         background-size: cover;
         background-repeat: no-repeat;
@@ -2270,7 +2266,6 @@
     .cbsucc_f5a7d96c {
         text-align: center;
         font-style: italic;
-        color:;
     }
 
     .cberro_c22deb54 {
@@ -4013,7 +4008,6 @@
         height: 60px;
         border-radius: 1px;
         margin-left: 5px;
-        background-image: url("../images/55e6de5ab3eaaf521f76d850c00519cc_origin.jpg");
         background-position: 50% 50%;
         background-size: cover;
         -ms-behavior: url(../images/backgroundsize.min.htc);
