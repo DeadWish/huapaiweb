@@ -1,8 +1,4 @@
-﻿/* AB模版网 做最好的织梦整站模板下载网站 Www.AdminBuy.Cn */
-/* QQ：9490489 */
-/* 仿站：Fang.AdminBuy.Cn */
-/* 素材：Sc.AdminBuy.Cn */
-@media all {
+﻿@media all {
     .cbsect_b547f460 {
         padding-bottom: 100px;
         padding-top: 100px;
@@ -658,6 +654,7 @@
         font-style: normal;
         color: #000000;
         padding-left: 3px;
+        text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white;
     }
 
     .cbpara_2e65dae9 {
@@ -2776,7 +2773,7 @@
         margin-bottom: 30px;
         line-height: 2em;
         color: rgb(119, 119, 119);
-        font-size: 13px;
+        font-size: 18px;
         padding-right: 10px;
     }
 
@@ -2787,6 +2784,7 @@
     }
 
     .paragraph_6ykpQJ {
+        font-size: 20px;
         font-family: Source-Han-Normal;
         padding-bottom: 0px;
         color: rgb(85, 85, 85);
@@ -4467,7 +4465,6 @@
         height: 60px;
         border-radius: 1px;
         margin-left: 5px;
-        background-image: url("../images/55e6de5ab3eaaf521f76d850c00519cc_origin.jpg");
         background-position: 50% 50%;
         background-size: cover;
     }
@@ -6350,4 +6347,41 @@
 
 .pagess ul li a:hover {
     color: #fff;
+}
+
+.buy-button-outline {
+    padding-top: 10px;
+}
+
+.buy-button {
+    background-color: dodgerblue; /* Green */
+    color: white;
+    padding: 12px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    border-radius:25px;
+}
+
+.buy-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.about_img {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover!important;
+}
+
+.about_img_c {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    object-fit: cover!important;
 }
