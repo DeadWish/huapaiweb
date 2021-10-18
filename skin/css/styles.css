@@ -5,6 +5,13 @@
         background-color: rgba(0, 0, 0, 0);
     }
 
+    .cbnavc_3f2abf0c {
+        /* float: right; */
+    }
+
+    .cbnavl_c6e994e7 {
+        float: right
+    }
     .cbdiv_304187f5 {
         position: absolute;
         z-index: 0;
@@ -241,7 +248,7 @@
 
     .cbslid_6ac2939e {
         background-color: rgba(153, 153, 153, 0);
-        min-height: 550px;
+        min-height: 520px;
     }
 
     .cbslid_0cea729b {
