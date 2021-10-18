@@ -241,7 +241,7 @@
 
     .cbslid_6ac2939e {
         background-color: rgba(153, 153, 153, 0);
-        min-height: 700px;
+        min-height: 550px;
     }
 
     .cbslid_0cea729b {
@@ -560,7 +560,6 @@
         background-position: 50% 50%;
         background-repeat: no-repeat;
         z-index: auto;
-        background-image: url('../images/3a176cc29d87a0d4f97832fa9becb47b_origin.jpg');
         background-color: rgb(74, 134, 232);
     }
 
@@ -627,7 +626,7 @@
         width: 70%;
         position: relative;
         right: 100px;
-        padding-top: 6vw;
+        padding-top: 20vw;
     }
 
     .cbdiv_4f6b40ad {
@@ -5651,7 +5650,7 @@
     }
 
     .cbslid_6ac2939e {
-        min-height: 680px;
+        min-height: 500px;
     }
 
     .cbleft_2a81a686 {
